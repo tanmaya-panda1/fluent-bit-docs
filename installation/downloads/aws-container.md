@@ -7,7 +7,7 @@ AWS maintains a distribution of Fluent Bit that combines the latest official rel
 The [AWS for Fluent Bit](https://github.com/aws/aws-for-fluent-bit) image contains Go Plugins for:
 
 - Amazon CloudWatch as `cloudwatch_logs`. See the
-  [Fluent Bit docs](../../pipeline/outputs/cloudwatc.md) or the
+  [Fluent Bit docs](../../pipeline/outputs/cloudwatch.md) or the
   [Plugin repository](https://github.com/aws/amazon-cloudwatch-logs-for-fluent-bit).
 - Amazon Kinesis Data Firehose as `kinesis_firehose`. See the
   [Fluent Bit docs](../../pipeline/outputs/firehose.md) or the
