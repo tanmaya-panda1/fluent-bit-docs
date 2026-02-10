@@ -40,7 +40,7 @@ The plugin supports the following configuration parameters:
 
 | Property | Description |
 | -------- | ----------- |
-| `multiline.parser` | Specify one or multiple [Multiline Parser definitions](../pipeline/parsers/multiline-parsing.md) to apply to the content. You can specify multiple multiline parsers to detect different formats by separating them with a comma. |
+| `multiline.parser` | Specify one or multiple [Multiline Parser definitions](../../pipeline/parsers/multiline-parsing.md) to apply to the content. You can specify multiple multiline parsers to detect different formats by separating them with a comma. |
 | `multiline.key_content` | Key name that holds the content to process. A multiline parser definition can specify the `key_content` This option allows for overwriting that value for the purpose of the filter. |
 | `mode` | Mode can be `parser` for regular expression concatenation, or `partial_message` to concatenate split Docker logs. |
 | `buffer` | Enable buffered mode. In buffered mode, the filter can concatenate multiple lines from inputs that ingest records one by one (like Forward), rather than in chunks, re-emitting them into the beginning of the pipeline (with the same tag) using the `in_emitter` instance. With buffer off, this filter won't work with most inputs, except Tail. |
