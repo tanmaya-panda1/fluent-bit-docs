@@ -141,8 +141,6 @@ exceptions:
   - URI
   - URL
   - USB
-  - USNAT
-  - USSEC
   - UTC
   - UTF
   - UUID
